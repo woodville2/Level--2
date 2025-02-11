@@ -5,9 +5,10 @@ body{background-color: beige;}
 
 .heading {
   display: flex;
-  font-size: 70px;
+  font-size: 5rem;
   justify-content: center;
   background-color: dimgray;
+  padding:10px;
 }
 
 nav.location {
@@ -18,8 +19,6 @@ nav.location {
 ul {
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  flex-direction: row;
-  /*list-style-type: none;*/
   margin: 0;
   padding: 0;
   gap: 25px;
@@ -30,10 +29,14 @@ div {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-weight: 600;
-  border: solid black 3px
+  border: solid black 3px;
+  padding: 15px;
+  
 }
 .view {
   display: flex;
   justify-content:center;
   margin-top: 95px;
+  gap:10px
+  
 }
