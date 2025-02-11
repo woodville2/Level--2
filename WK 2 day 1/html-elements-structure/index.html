@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Favorite Bicylces</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="shortcut icon"
       href="icons8-bicycle-48.png"
@@ -12,48 +13,52 @@
   </head>
   <body>
     <header>
-      <nav>
-        <h1>Bicycles</h1>
+      <h1 class="heading">Bicycles</h1>
+      <nav class="location">
         <ul>
-          <li><a href="#"></a>Home</li>
-          <li><a href="#"></a>About</li>
-          <li><a href="#"></a>Contact</li>
+          <li><a href="#home"></a>Home</li>
+          <li><a href="#about"></a>About</li>
+          <li><a href="#contact"></a>Contact</li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="view">
       <section>
         <h2>Bike Types</h2>
-        <p>There are 24 types of bicycles.</p>
-        <p>
-          Road bikes, Mountain bikes, Hybrid bikes, Folding bikes, Recumbent
-          bikes, Electric bikes, Touring bikes, Utility bikes, Cargo bikes,
-          Tricycles, Quadricycle, Urban bikes, Exercise bikes, and more.
-        </p>
+        <div id="style">
+          <p>
+            There are 24 types of bicycles. <br>Road bikes, Mountain bikes, Hybrid
+            bikes, Folding bikes, Recumbent bikes, Electric bikes,<br> Touring
+            bikes, Utility bikes, Cargo bikes, Tricycles, Quadricycle, Urban
+            bikes, Exercise bikes, and more.
+          </p>
+        </div>
       </section>
       <section>
         <h2>Why Bikes?</h2>
-        <p>
-          Simplicity and Efficiency. Elegant design, and arguably the most
-          efficient mode of transportation, converting human energy into forward
-          motion with minimal energy loss.
-        </p>
-        <pre>
+        <div>
+          <p>
+            Simplicity and Efficiency. <br>Elegant design <br> Arguably the most
+            efficient mode of transportation, <br>
+            converting human energy into
+            forward motion <br>with minimal energy loss.
+          </p>
+          <pre>
     clean frosty sunlight
 breezy coastal cycle trip;
 feel very alive
   </pre
-        >
+          >
+        </div>
       </section>
       <section>
         <h2>My Favorite...</h2>
         <img src="faovrite.png" alt="bike1" />
-        <div>
-        <p> Nothing beats a good commuter bike these days.</p>
-        </div>
+
+        <p>Nothing beats a good commuter bike these days.</p>
       </section>
     </main>
-    <script src="style.css"></script>
-    <footer> copywirte 2025 ellewood</footer>
+
+    <footer>copyright 2025 ellewood</footer>
   </body>
 </html>
