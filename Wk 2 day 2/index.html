@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Entry Form</title>
+  </head>
+  <body>
+    <form action="#" method="get" id="century" class="form">
+      <label style="display: block" for=" name"> Name</label>
+      <input type="text" name="name" id="name" />
+      <div>
+        <label class="label"
+          >Email:
+          <input type="email" name="email" id="email" />
+        </label>
+        <div>
+          <label class="label">
+            Message:
+            <textarea name="mesage" id="message"></textarea>
+          </label>
+          <label class="label" for="gender">
+            Gender:
+            <select name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </label>
+          <div>
+            <label for="age" class="label">
+              Select Age
+              <select name="age" id="age">
+                age
+                <option value="16-18">16-18</option>
+                <option value="19-21">19-21</option>
+                <option value="22-35">22-25</option>
+                <option value="35 and up">35 and Up</option>
+              </select>
+            </label>
+            ,<input type="button" value="">
+            <button type="button">Enter</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
